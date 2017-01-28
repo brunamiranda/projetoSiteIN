@@ -1,0 +1,117 @@
+header{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+html{
+	height: 100%;
+	width:100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	height: 15%;
+	text-align: center;
+	background-color: #F8F8FF;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border: none;
+
+}
+.navbar-nav li{
+	float: left;
+	position: relative;
+	padding-top: 25px; 
+}
+
+.textoSobre{
+	text-align: center;
+}
+#sessaoUm{
+	background: black;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: white;
+}
+#sessaoUm p{
+	margin-top: 25px;
+	font-family: 'Helvetica';
+	font-size: 20px;
+}
+#sessaoDois{
+	background: #23527c;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: white;
+	font-family: 'Helvetica';
+	font-size: 20px;
+}
+
+#portfolio{
+	height: 85%;
+	width: 100%;
+}
+#rodape{
+	height: 20%;
+	background-color: black;
+
+}
+#rodape img{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.textoUm{
+	margin-top: 40px;
+}
+#servicoUm{
+	background: white;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: black;
+}
+#servicoDois h2{
+	padding-top: 200px;
+}
+#servicoDois img{	
+	padding-top: none;
+	width: 104%;
+}	
+#servicoDois{
+	background: black;
+	background-size: cover;
+	height: 85%;
+	width: 100%;	
+	padding-bottom: 100px;
+	color: white;
+}
+#servicoUm h2{
+	padding-top: 30px;
+}		
+#servicoTres{
+	background: white;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: black;
+}
+#servicoTres h2{
+	padding-top: 50px;
+}
+#contato{
+	height: 100%;
+	width: 100%;
+}	
+	
