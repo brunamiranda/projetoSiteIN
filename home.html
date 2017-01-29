@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> IN Junior-Serviços</title>
+		<title> IN Junior</title>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="bootstrap/css/style.css">
 		<meta charset="utf-8">
@@ -16,12 +16,10 @@
 			      <a class="navbar-brand" href="index.html"><img src="mini-logo.png"></a>
 			    </div>
 			    <ul class="nav navbar-nav">
-			      <li><a href="#sessaoUm">Empresa</a></li>
-			      <li><a href="servicos.html">Serviços</a></li>
-			      <li><a href="#">Portfólio</a></li>
-			      <li><a href="#">Processo Seletivo</a></li>
-			      <li><a href="#">Contato</a></li>
-			      <li><a href="#">Eventos</a></li>
+			      <li><a href="home.html">Home</a></li>
+			      <li><a href="sobre.html">Sobre</a></li>
+			      <li><a href="equipe.html">Equipe</a></li>
+
 			      <li><a href="https://www.facebook.com/injunioruff">Facebook</a></li>
 			    </ul>
 			  </div>
@@ -65,6 +63,20 @@
 					<img src="sites.jpg">
 				</div>				
 			</div>
+		</section>
+		<section id="contato">
+			<h2 class="text-center">Contato</h2>
+			<form method="POST">
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" class="form-control" name="nome" required>
+			<label for="email">Email</label>
+			<input type="email" id="email" class="form-control" name="email" required>
+			<label for="assunto">Assunto</label>
+			<input type="text" id="assunto" class="form-control" name="assunto" required>
+			<label for="mensagem">Mensagem</label>
+			<textarea name="corpo" class="form-control" id="Mensagem" rows="5" title="Digite sua mensagem" required=""></textarea>
+			<button class="btn btn-default btn-block" type="submit" name="enviar" required>Enviar</button>
+		</form>
 		</section>
 
 		<footer id="rodape">

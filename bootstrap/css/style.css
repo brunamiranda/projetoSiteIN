@@ -114,4 +114,61 @@ body{
 	height: 100%;
 	width: 100%;
 }	
-	
+#contato button{
+	margin-top: 30px;
+}
+#presidencia{
+	background:white;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+#marketing{
+	background: grey;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+#gestao{
+	background: white;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+#projetos{
+	background: grey;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+#financeiro{
+	background: white;
+	background-size: cover;
+	height: 85%;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+.titulo{
+	font-size: 50px; 
+}
+.equipe{
+	margin-top: 150px;
+	align-content: center;
+}
+
+
+
