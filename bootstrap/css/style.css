@@ -2,6 +2,8 @@ header{
 	height: 100%;
 	width: 100%;
 	position: relative;
+	background-image: url(http://injunior.com.br/img/fundo.jpg);
+	background-size: cover;
 }
 
 html{
@@ -15,15 +17,25 @@ body{
 .navbar{
 	height: 15%;
 	text-align: center;
-	background-color: #F8F8FF;
+	background-color: rgba(0,0,0,0);
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: none;
+	font-size: large;
+	
+
 
 }
 .navbar-nav li{
 	float: left;
 	position: relative;
 	padding-top: 25px; 
+
+
+}
+
+
+.color{
+	color: black;
 }
 
 .textoSobre{
