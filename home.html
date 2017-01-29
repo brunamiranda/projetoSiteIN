@@ -9,8 +9,11 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
+
+
+
 		<header>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
+			<nav class="navbar navbar-inverse ">
 			  <div class="container-fluid">
 			    <div class="nav navbar-nav navbar-left">
 			      <a class="navbar-brand" href="index.html"><img src="mini-logo.png"></a>
@@ -42,12 +45,15 @@
 
 		<section id="servicoDois">
 			<div class="consultoria">
-				<div class="col-md-6">
+				<div class="col-md-6 navbar-left ">
 					<h2 class="text-center">Consultoria em TI</h2>
 					<p class="text-center">Se deseja aperfeiçoar, organizar, modificar ou resolver algum problema na área de Tecnologia da Informação do seu negócio, fale conosco! Nós oferecemos consultoria especializada para sua empresa, analisamos seu problema e oferecemos a solução mais inteligente, nunca estar atualizado tecnologicamente foi tão fácil. Contate-nos e solicite um orçamento.</p>
 				</div>
+
 				<div class="col-md-6">
-					<img src="consultoria.jpg">
+					<div class="foto">
+						<img src="consultoria.jpg">
+					</div>
 				</div>				
 			</div>
 							
@@ -65,17 +71,19 @@
 			</div>
 		</section>
 		<section id="contato">
-			<h2 class="text-center">Contato</h2>
-			<form method="POST">
-			<label for="nome">Nome</label>
-			<input type="text" id="nome" class="form-control" name="nome" required>
-			<label for="email">Email</label>
-			<input type="email" id="email" class="form-control" name="email" required>
-			<label for="assunto">Assunto</label>
-			<input type="text" id="assunto" class="form-control" name="assunto" required>
-			<label for="mensagem">Mensagem</label>
-			<textarea name="corpo" class="form-control" id="Mensagem" rows="5" title="Digite sua mensagem" required=""></textarea>
-			<button class="btn btn-default btn-block" type="submit" name="enviar" required>Enviar</button>
+			<div class="formulario1">
+				<h2 class="text-center">Contato</h2>
+				<form method="POST">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" class="form-control" name="nome" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" class="form-control" name="email" required>
+				<label for="assunto">Assunto</label>
+				<input type="text" id="assunto" class="form-control" name="assunto" required>
+				<label for="mensagem">Mensagem</label>
+				<textarea name="corpo" class="form-control" id="Mensagem" rows="5" title="Digite sua mensagem" required=""></textarea>
+				<button class="btn btn-default btn-block" type="submit" name="enviar" required>Enviar</button>
+			</div>
 		</form>
 		</section>
 
